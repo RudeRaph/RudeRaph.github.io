@@ -31,11 +31,22 @@ title: Home
   <h2>Featured Tools</h2>
   <div class="card-grid">
     <div class="card">
-      <h3><a href="https://github.com/yourusername/tool-repo">Tool Name</a></h3>
-      <p>One or two sentences on what it does and why you built it.</p>
-      <p class="tech">Python · Requests · argparse</p>
+      <h3><a href="https://github.com/RudeRaph/dmslider">dmslider.sh</a></h3>
+      <p>Modular recon pipeline — nmap, web enum, vhost fuzzing, and CVE lookups in one report.</p>
+      <p class="tech">Bash · nmap · gobuster · ffuf</p>
+    </div>
+    <div class="card">
+      <h3><a href="https://github.com/RudeRaph/auto-ligolo">auto-ligolo.sh</a></h3>
+      <p>Interactive Ligolo-ng pivot setup — from binary download to live tunnel.</p>
+      <p class="tech">Bash · Ligolo-ng</p>
+    </div>
+    <div class="card">
+      <h3><a href="https://github.com/RudeRaph/thinpeas">thinpeas.sh</a></h3>
+      <p>Focused Linux privesc enumeration — only actionable findings, no noise.</p>
+      <p class="tech">Bash · Linux privesc</p>
     </div>
   </div>
+  <p><a href="/tools.html">View all tools →</a></p>
 </section>
 
 <section class="writeups-preview">
