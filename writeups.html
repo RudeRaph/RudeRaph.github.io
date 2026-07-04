@@ -1,0 +1,16 @@
+---
+layout: default
+title: Writeups
+---
+
+<h1>HTB Writeups</h1>
+<p>All writeups below are for <strong>retired</strong> machines only, in line with HTB's terms of service.</p>
+
+<ul class="writeup-list">
+  {% for writeup in site.writeups %}
+    <li>
+      <a href="{{ writeup.url }}">{{ writeup.title }}</a>
+      <span class="meta">{{ writeup.difficulty }} · {{ writeup.os }} · {{ writeup.date | date: "%b %Y" }}</span>
+    </li>
+  {% endfor %}
+</ul>

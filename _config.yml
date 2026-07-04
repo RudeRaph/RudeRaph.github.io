@@ -1,0 +1,28 @@
+title: Your Name
+description: Cybersecurity portfolio — HTB writeups, tools, and certifications
+author: Your Name
+email: your.email@example.com
+
+# Update these with your real links
+github_username: yourusername
+linkedin_username: yourusername
+
+markdown: kramdown
+theme: minima
+
+collections:
+  writeups:
+    output: true
+    permalink: /writeups/:path/
+
+defaults:
+  - scope:
+      path: ""
+      type: "writeups"
+    values:
+      layout: "writeup"
+
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
