@@ -8,7 +8,7 @@ title: Home
   <p class="tagline">Penetration Testing</p>
   <p>Keep learning and keep owning.</p>
   <p>
-    <a href="/resume.pdf">Download Resume</a> ·
+    Resume available upon request ·
     <a href="https://github.com/RudeRaph">GitHub</a>
   </p>
 </section>
