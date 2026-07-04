@@ -4,22 +4,26 @@ title: Home
 ---
 
 <section class="hero">
-  <h1>Your Name</h1>
-  <p class="tagline">Cybersecurity | Penetration Testing | HTB Enthusiast</p>
-  <p>Short intro paragraph. Who you are, what you focus on (e.g. Active Directory attacks, web app security, binary exploitation), and what you're looking for (e.g. "seeking a pentesting/red team role").</p>
+  <h1>RudeRaph</h1>
+  <p class="tagline">Penetration Testing</p>
+  <p>Keep learning and keep owning.</p>
   <p>
     <a href="/resume.pdf">Download Resume</a> ·
-    <a href="https://linkedin.com/in/yourusername">LinkedIn</a> ·
-    <a href="https://github.com/yourusername">GitHub</a>
+    <a href="https://github.com/RudeRaph">GitHub</a>
   </p>
 </section>
 
 <section class="certifications">
   <h2>Certifications & Pro Labs</h2>
   <ul>
-    <li><strong>Certification Name</strong> — Issuing Org, Year</li>
-    <li><strong>HTB Pro Lab: Dante</strong> — Completed, Year</li>
-    <li><strong>Certification Name</strong> — Issuing Org, Year</li>
+    <li><strong>CPTS</strong> — Certified Penetration Testing Specialist, HTB Academy — Completed</li>
+    <li><strong>CDSA</strong> — Certified Defensive Security Analyst, HTB Academy — Completed</li>
+    <li><strong>CWPE</strong> — HTB Academy — In Progress</li>
+    <li><strong>CWES</strong> — HTB Academy — In Progress</li>
+    <li><strong>CJCA</strong> — HTB Academy — In Progress</li>
+    <li><strong>HTB Pro Lab: Dante</strong> — Completed</li>
+    <li><strong>HTB Pro Lab: P.O.O</strong> — Completed</li>
+    <li><strong>HTB Pro Lab: Offshore</strong> — In Progress</li>
   </ul>
 </section>
 
