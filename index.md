@@ -16,8 +16,8 @@ title: Home
 <section class="certifications">
   <h2>Certifications & Pro Labs</h2>
   <ul>
-    <li><strong>CPTS Path</strong> — Certified Penetration Testing Specialist, HTB Academy — Completed</li>
-    <li><strong>CDSA Path</strong> — Certified Defensive Security Analyst, HTB Academy — Completed</li>
+    <li><strong>CPTS Path</strong> — Certified Penetration Testing Specialist, HTB Academy — Path Completed</li>
+    <li><strong>CDSA Path</strong> — Certified Defensive Security Analyst, HTB Academy — Path Completed</li>
     <li><strong>CWPE Path</strong> — HTB Academy — In Progress</li>
     <li><strong>CWES Path</strong> — HTB Academy — In Progress</li>
     <li><strong>CJCA Path</strong> — HTB Academy — In Progress</li>
