@@ -1,3 +1,7 @@
+---
+layout: default
+title: Home
+---
 <section class="hero">
   <div class="hero-header">
     <img src="/assets/images/profile.png" alt="RudeRaph" class="profile-pic">
@@ -52,10 +56,6 @@
         <a href="{{ writeup.url }}">{{ writeup.title }}</a>
         <span class="meta">{{ writeup.difficulty }} · {{ writeup.os }}</span>
       </li>
-    {% endfor %}
-  </ul>
-  <p><a href="/writeups.html">View all writeups →</a></p>
-</section>
     {% endfor %}
   </ul>
   <p><a href="/writeups.html">View all writeups →</a></p>
