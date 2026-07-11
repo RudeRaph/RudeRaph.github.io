@@ -1,10 +1,8 @@
----
-layout: default
-title: Home
----
-
 <section class="hero">
-  <h1>RudeRaph</h1>
+  <div class="hero-header">
+    <img src="/assets/images/profile.png" alt="RudeRaph" class="profile-pic">
+    <h1>RudeRaph</h1>
+  </div>
   <p class="tagline">Penetration Testing</p>
   <p>Keep learning and keep owning.</p>
   <p>
@@ -12,7 +10,6 @@ title: Home
     <a href="https://github.com/RudeRaph">GitHub</a>
   </p>
 </section>
-
 <section class="certifications">
   <h2>Certifications & Pro Labs</h2>
   <ul>
@@ -26,7 +23,6 @@ title: Home
     <li><strong>HTB Pro Lab: Offshore</strong> — In Progress</li>
   </ul>
 </section>
-
 <section class="tools">
   <h2>Featured Tools</h2>
   <div class="card-grid">
@@ -48,7 +44,6 @@ title: Home
   </div>
   <p><a href="/tools.html">View all tools →</a></p>
 </section>
-
 <section class="writeups-preview">
   <h2>Recent Writeups</h2>
   <ul>
@@ -57,6 +52,10 @@ title: Home
         <a href="{{ writeup.url }}">{{ writeup.title }}</a>
         <span class="meta">{{ writeup.difficulty }} · {{ writeup.os }}</span>
       </li>
+    {% endfor %}
+  </ul>
+  <p><a href="/writeups.html">View all writeups →</a></p>
+</section>
     {% endfor %}
   </ul>
   <p><a href="/writeups.html">View all writeups →</a></p>
