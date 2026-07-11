@@ -18,7 +18,7 @@ title: Home
   <h2>Certifications & Pro Labs</h2>
   <ul>
     <li><strong><a href="https://academy.hackthebox.com/achievement/386892/path/16">CPTS Path</a></strong> — Certified Penetration Testing Specialist, HTB Academy — Path Completed</li>
-    <li><strong>CDSA Path</strong> — Certified Defensive Security Analyst, HTB Academy — Path Completed</li>
+    <li><strong><a href="https://academy.hackthebox.com/achievement/386892/path/390">CDSA Path</a></strong> — Certified Defensive Security Analyst, HTB Academy — Path Completed</li>
     <li><strong>CWPE Path</strong> — HTB Academy — In Progress</li>
     <li><strong>CWES Path</strong> — HTB Academy — In Progress</li>
     <li><strong>CJCA Path</strong> — HTB Academy — In Progress</li>
