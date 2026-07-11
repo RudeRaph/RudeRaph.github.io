@@ -111,8 +111,8 @@ code {
 }
 .hero-header h1 { margin: 0; }
 .profile-pic {
-  width: 80px;
-  height: 80px;
+  width: 20px;
+  height: 20px;
   border-radius: 50%;
   object-fit: cover;
   border: 1px solid var(--border);
