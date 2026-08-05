@@ -1,6 +1,9 @@
 ---
-
-## title: "Baby" os: Windows difficulty: Easy tags: [active-directory, ldap, netexec, password-spray, kerberos, backup-operators, sebackupprivilege, diskshadow, ntds-dit, secretsdump, evil-winrm]
+title: "Baby"
+os: Windows
+difficulty: Easy
+tags: [active-directory, ldap, netexec, password-spray, kerberos, backup-operators, sebackupprivilege, diskshadow, ntds-dit, secretsdump, evil-winrm]
+---
 
 **Target:** 10.129.234.71 (baby.vl)
 
@@ -118,20 +121,20 @@ Teresa.Bell
 None of the accounts — including Teresa.Bell herself — accepted the password over SMB or LDAP. Kerberos-based testing (via `kinit`) confirmed this cleanly with `KDC_ERR_PREAUTH_FAILED` (wrong password, not a lockout or account-state issue), ruling out config problems. This looked like a dead end.
 
 > **Note on Kerberos tooling:** getting `kinit`/`kpasswd` working against the DC required fixing `/etc/hosts` and creating a proper `/etc/krb5.conf`:
-> 
+>
 > ```shell
 > └─$ sudo tee /etc/krb5.conf > /dev/null << 'EOF'
 > [libdefaults]
 >     default_realm = BABY.VL
 >     dns_lookup_kdc = false
 >     dns_lookup_realm = false
-> 
+>
 > [realms]
 >     BABY.VL = {
 >         kdc = 10.129.234.71
 >         admin_server = 10.129.234.71
 >     }
-> 
+>
 > [domain_realm]
 >     .baby.vl = BABY.VL
 >     baby.vl = BABY.VL
